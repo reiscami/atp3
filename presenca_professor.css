@@ -112,15 +112,33 @@ body {
 }
 
 
-.right-side {
-    flex: 1;
-    margin-left: 250px;
-    margin-bottom: 20px;
-    background-size: cover;
+
+.cards {
+     display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+}
+
+.card1{
+    width: 100px;
+    height: 100ppx;
+    border-radius: 10px;
+    box-shadow: 10px 0px 8px rgba(0,0,0,0.2);
+    overflow-block: 10px;
     display: flex;
-    flex-direction: column; /* <-- Faz empilhar os elementos na vertical */
-    justify-content: flex-start; /* <-- Alinha no topo */
-    align-items: flex-start; /* <-- Alinha à esquerda */
-    padding: 20px; /* <-- Adiciona espaçamento interno */
+    flex-direction: column;
+}
+
+
+
+.card1 p{
+    background-color: #d3d3d3cc;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
     color: black;
-  }
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
