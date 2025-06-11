@@ -123,25 +123,50 @@ body {
   color: black;
 }
 
-
-
-.right-side {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 40px;
+.cards {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
 }
 
-.card {
-  background-color: #083d54;
+.card1 {
+  background: #a29bfe;
   color: white;
-  width: 160px;
+  width: 180px;
   border-radius: 20px;
   padding: 20px 10px;
   text-align: center;
   margin-bottom: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+.title{
+  color: #ffff;
+   
+}
+
+.subtitle{
+  color: #ffffff91
+}
+
+
+
+.botao1 {
+  margin-top: 10px;
+  background-color: #6c5ce7;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.botao1:hover {
+  background-color: #9689f8;
+}
+
 .icon-circle {
   background-color: white;
   border-radius: 50%;
@@ -171,5 +196,76 @@ body {
 }
 
 .card .button-text {
+  font-size: 0.9em;
+}
+
+
+.card2 {
+  background: #a29bfe;
+  color: white;
+  width: 180px;
+  border-radius: 20px;
+  padding: 20px 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.title2{
+  color: #ffff;
+   
+}
+
+.subtitle2{
+  color: #ffffff91
+}
+
+
+
+.botao2 {
+  margin-top: 10px;
+  background-color: #6c5ce7;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.botao2:hover {
+  background-color: #9689f8;
+}
+
+.icon-circle {
+  background-color: white;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-circle svg {
+  width: 40px;
+  height: 40px;
+  stroke: rgb(0, 0, 0);
+}
+
+.card2 .title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+
+.card2 .subtitle {
+  font-size: 0.85em;
+  margin-bottom: 15px;
+}
+
+.card2 .button-text {
   font-size: 0.9em;
 }
