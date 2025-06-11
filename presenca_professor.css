@@ -8,7 +8,6 @@
   body, html {
     height: 0;
     width: 0;
-    height: 0;
 
   }
   
@@ -111,34 +110,66 @@ body {
   padding: 30px;
 }
 
-
-
-.cards {
-     display: flex;
-      gap: 30px;
-      flex-wrap: wrap;
-}
-
-.card1{
-    width: 100px;
-    height: 100ppx;
-    border-radius: 10px;
-    box-shadow: 10px 0px 8px rgba(0,0,0,0.2);
-    overflow-block: 10px;
-    display: flex;
-    flex-direction: column;
+.right-side {
+  flex: 1;
+  margin-left: 250px;
+  margin-bottom: 20px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column; /* <-- Faz empilhar os elementos na vertical */
+  justify-content: flex-start; /* <-- Alinha no topo */
+  align-items: flex-start; /* <-- Alinha à esquerda */
+  padding: 20px; /* <-- Adiciona espaçamento interno */
+  color: black;
 }
 
 
 
-.card1 p{
-    background-color: #d3d3d3cc;
-    padding: 20px;
-    font-weight: bold;
-    font-size: 18px;
-    color: black;
-    margin: 0;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    
+.right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.card {
+  background-color: #083d54;
+  color: white;
+  width: 160px;
+  border-radius: 20px;
+  padding: 20px 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.icon-circle {
+  background-color: white;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-circle svg {
+  width: 40px;
+  height: 40px;
+  stroke: rgb(0, 0, 0);
+}
+
+.card .title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+
+.card .subtitle {
+  font-size: 0.85em;
+  margin-bottom: 15px;
+}
+
+.card .button-text {
+  font-size: 0.9em;
 }

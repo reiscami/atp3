@@ -126,7 +126,7 @@ body {
   }
 
 .cards {
-     display: flex;
+      display: flex;
       gap: 30px;
       flex-wrap: wrap;
 }
@@ -156,7 +156,7 @@ body {
 
 
 .botao1  {
-    background-color: #F5CC17;
+    background-color: #a29bfe;
     border: none;
     padding: 15px;
     color: #555555;
@@ -212,7 +212,7 @@ body {
 
 
 .botao2  {
-    background-color: #df81fc;
+    background-color: #fab1a0;
     border: none;
     padding: 15px;
     color: #555555;
