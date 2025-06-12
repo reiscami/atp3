@@ -110,6 +110,16 @@ body {
   padding: 30px;
 }
 
+
+.linha-branca {
+  width: 90%;
+  height: 1px;
+  background-color: white;
+  margin: 20px auto;
+  border: 1px solid 
+}
+
+
 .right-side {
   flex: 1;
   margin-left: 250px;
@@ -201,7 +211,7 @@ body {
 
 
 .card2 {
-  background: #a29bfe;
+  background: #fab1a0;
   color: white;
   width: 180px;
   border-radius: 20px;
@@ -224,7 +234,7 @@ body {
 
 .botao2 {
   margin-top: 10px;
-  background-color: #6c5ce7;
+  background-color: #ff7675;
   color: white;
   padding: 10px 20px;
   border-radius: 10px;
@@ -235,7 +245,7 @@ body {
 }
 
 .botao2:hover {
-  background-color: #9689f8;
+  background-color: #ffb7a7;
 }
 
 .icon-circle {

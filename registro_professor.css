@@ -8,7 +8,6 @@
   body, html {
     height: 0;
     width: 0;
-    height: 0;
 
   }
   
@@ -53,7 +52,7 @@ body {
   width: 250px;
   background-color: #3b5cb8;
   color: white;
-  padding: 150px 0px;
+  padding: 20px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -111,6 +110,14 @@ body {
   padding: 30px;
 }
 
+
+.linha-branca {
+  width: 90%;
+  height: 1px;
+  background-color: white;
+  margin: 20px auto;
+  border: 1px solid 
+}
 
 .right-side {
     flex: 1;
