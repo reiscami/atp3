@@ -123,20 +123,16 @@ body {
 .right-side {
   flex: 1;
   margin-left: 250px;
-  margin-bottom: 20px;
-  background-size: cover;
+  padding: 20px;
   display: flex;
-  flex-direction: column; /* <-- Faz empilhar os elementos na vertical */
-  justify-content: flex-start; /* <-- Alinha no topo */
-  align-items: flex-start; /* <-- Alinha à esquerda */
-  padding: 20px; /* <-- Adiciona espaçamento interno */
-  color: black;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .cards {
-      display: flex;
-      gap: 30px;
-      flex-wrap: wrap;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
 }
 
 .card1 {
@@ -146,8 +142,13 @@ body {
   border-radius: 20px;
   padding: 20px 10px;
   text-align: center;
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  
 }
 
 .title{
@@ -218,7 +219,12 @@ body {
   padding: 20px 10px;
   text-align: center;
   margin-bottom: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  gap: 10px;
 }
 
 .title2{

@@ -133,9 +133,6 @@ body {
   }
 
 
-
-
-
 .cards {
   display: flex;
   flex-wrap: wrap; /* quebra para a linha de baixo se não couber */

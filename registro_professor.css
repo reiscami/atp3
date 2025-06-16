@@ -120,56 +120,58 @@ body {
 }
 
 .right-side {
-    flex: 1;
-    margin-left: 250px;
-    margin-bottom: 20px;
-    background-size: cover;
-    display: flex;
-    flex-direction: column; /* <-- Faz empilhar os elementos na vertical */
-    justify-content: flex-start; /* <-- Alinha no topo */
-    align-items: flex-start; /* <-- Alinha à esquerda */
-    padding: 20px; /* <-- Adiciona espaçamento interno */
-    color: black;
-  }
+  flex: 1;
+  margin-left: 250px;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
 
-.card1 {
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+/* Cards base */
+.card {
   width: 260px;
   height: 260px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  margin: 10px;
- 
 }
 
-.card-top1 {
+
+/* Topo comum aos dois */
+.card-top {
   background-color: #dcdcdc;
   padding: 20px;
 }
 
-.card-top1 h3 {
+.card-top h3 {
   margin: 0;
   font-size: 20px;
   font-weight: bold;
 }
 
-.card-top1 p {
-  margin: 5px 0 0 0;
-  font-size: 19px;
+.card-top p {
+  margin-top: 5px;
+  font-size: 18px;
   font-weight: bold;
 }
 
-.card-bottom1 {
-  background-color: #a29bfe; /* Azul */
+/* Parte inferior com cor diferente por card */
+.card-bottom {
   padding: 15px;
-  color: rgb(255, 255, 255);
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
 }
 
-.card-bottom1 a {
- margin-top: 10px;
+.card-bottom a {
+  margin-top: 10px;
   background-color: #6c5ce7;
   color: white;
   padding: 10px 20px;
@@ -179,59 +181,23 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.card-bottom1 a:hover {
+.card-bottom a:hover {
   background-color: #9689f8;
 }
- 
 
-.card2 {
-  width: 260px;
-  height: 260px;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  margin: 10px;
+/* Cores específicas */
+.card-bottom.azul {
+  background-color: #a29bfe;
 }
 
-.card-top2 {
-  background-color: #dcdcdc;
-  padding: 20px;
+.card-bottom.rosa {
+  background-color: #fab1a0;
 }
 
-.card-top2 h3 {
-  margin: 0;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.card-top2 p {
-  margin: 5px 0 0 0;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.card-bottom2 {
-  background-color: #fab1a0; 
-  padding: 15px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-.card-bottom2 a {
-  margin-top: 10px;
+.card-bottom.rosa a {
   background-color: #ff7675;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 10px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
 }
 
-.card-bottom2 a:hover {
+.card-bottom.rosa a:hover {
   background-color: #ffb7a7;
 }
