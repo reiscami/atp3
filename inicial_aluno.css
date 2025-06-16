@@ -140,15 +140,12 @@ body {
   justify-content: center;
 }
 
-
-.card1{
-    width: 260px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
+.cards > div:nth-child(-n+3) {
+  /* estilo para os 3 primeiros cards */
+  background-color: lightblue;
+  flex: 1 1 calc(30% - 20px);
 }
+
 
 
 
