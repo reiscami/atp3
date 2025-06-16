@@ -134,9 +134,8 @@ body {
 
 
 .cards {
-  display: flex;
-  flex-wrap: wrap; /* quebra para a linha de baixo se não couber */
-  gap: 20px;        /* espaço entre os cards */
+  display: flex; 
+  gap: 20px;        
   padding: 20px;
   justify-content: center;
 }
