@@ -43,10 +43,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.container {
-  display: flex;
-  height: 100vh;
-}
+
 
 .sidebar {
   width: 250px;
@@ -138,6 +135,7 @@ body {
 }
 
 .cards {
+<<<<<<< HEAD
   display: flex; 
   gap: 20px;        
   padding: 20px;
@@ -155,16 +153,39 @@ body {
 }
 
 
+=======
+  display: flex;
+  flex-wrap: wrap;       /* permite que os cards quebrem para a próxima linha */
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 850px;      /* define um limite para forçar a quebra de linha */
+  margin: 0 auto; 
+}
+
+.cards > div {
+  width: 260px;
+}
+
+.card1{
+  width: 260px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+>>>>>>> 162323da93a4c1bf2316738fd3c0574af09561f4
 
 .card1 p{
-    background-color: #d3d3d3cc;
-    padding: 20px;
-    font-weight: bold;
-    font-size: 18px;
-    color: black;
-    margin: 0;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+  background-color: #d3d3d3cc;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  margin: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
  
 
@@ -196,9 +217,12 @@ body {
     border: 50px;
 }
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 162323da93a4c1bf2316738fd3c0574af09561f4
 .card2{
     width: 260px;
     border-radius: 10px;
@@ -207,7 +231,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-
 
 .card2 p{
     background-color: #d3d3d3cc;
@@ -220,7 +243,6 @@ body {
     border-top-right-radius: 5px;
 }
  
-
 
 .botao2  {
     background-color: #FF2400;
@@ -276,6 +298,7 @@ body {
 
 
 .botao3 {
+<<<<<<< HEAD
     background-color: #a514e9;
     border: none;
     padding: 15px;
@@ -286,6 +309,18 @@ body {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     transition: background-color 0.3s;
+=======
+  background-color: #2a4aa0;
+  border: none;
+  padding: 15px;
+  color: #555555;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: background-color 0.3s;
+>>>>>>> 162323da93a4c1bf2316738fd3c0574af09561f4
   
 }
 
@@ -293,7 +328,7 @@ body {
     margin-right: 180px;
     font-size: 10px;
     white-space: nowrap;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .botao3 span:hover {
@@ -327,7 +362,11 @@ body {
 
 
 .botao4  {
+<<<<<<< HEAD
     background-color: #ff6505;
+=======
+    background-color: #9bfeb4;
+>>>>>>> 162323da93a4c1bf2316738fd3c0574af09561f4
     border: none;
     padding: 15px;
     color: #555555;
@@ -351,6 +390,7 @@ body {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgb(191, 188, 188);
     border: 50px;
+    margin-right: auto;
 }
 
 

@@ -135,18 +135,13 @@ body {
 .cards {
     display: flex;
     gap: 30px;
-}
-
-.card1{
-    width: 260px;
+    width: 260;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     overflow: hidden;
     display: flex;
     flex-direction: column;
 }
-
-
 
 .card1 p{
     background-color: #d3d3d3cc;
