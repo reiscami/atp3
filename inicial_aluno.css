@@ -24,7 +24,7 @@
     top: 0;
     height: 100vh;
     width: 250px;
-    background-color: #4169C1; 
+    background-color: #65A2E9; 
     display: flex;
     padding: 20px;
     justify-content: center;
@@ -50,7 +50,7 @@ body {
 
 .sidebar {
   width: 250px;
-  background-color: #3b5cb8;
+  background-color: #639bdb;
   color: white;
   padding: 20px 10px;
   display: flex;
@@ -95,7 +95,7 @@ body {
 .menu a.active,
 .menu a:hover,
 .logout:hover {
-  background-color: #2a4aa0;
+  background-color: #65A2E9;
   border-radius: 8px;
 }
 
@@ -132,20 +132,27 @@ body {
     color: black;
   }
 
+.linha {
+  display: flex;
+  gap: 20px;
+}
 
 .cards {
   display: flex; 
   gap: 20px;        
   padding: 20px;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.cards > div:nth-child(-n+3) {
-  /* estilo para os 3 primeiros cards */
-  background-color: lightblue;
-  flex: 1 1 calc(30% - 20px);
-}
 
+.card1{
+    width: 260px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
 
 
 
@@ -170,8 +177,8 @@ body {
     font-size: 16px;
     cursor: pointer;
     width: 100%;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     transition: background-color 0.3s;
   
 }
@@ -185,12 +192,9 @@ body {
 
 .botao1 span:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgb(121, 120, 120);
+    box-shadow: 0 8px 16px rgb(191, 188, 188);
     border: 50px;
 }
-
-
-
 
 
 
@@ -212,22 +216,22 @@ body {
     font-size: 18px;
     color: black;
     margin: 0;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
  
 
 
 .botao2  {
-    background-color: #fab1a0;
+    background-color: #FF2400;
     border: none;
     padding: 15px;
     color: #555555;
     font-size: 16px;
     cursor: pointer;
     width: 100%;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     transition: background-color 0.3s;
   
 }
@@ -241,9 +245,11 @@ body {
 
 .botao2 span:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px rgb(191, 188, 188);
     border-radius: 10px;
 }
+
+
 
 
 
@@ -270,15 +276,15 @@ body {
 
 
 .botao3 {
-    background-color: #a29bfe;
+    background-color: #a514e9;
     border: none;
     padding: 15px;
     color: #555555;
     font-size: 16px;
     cursor: pointer;
     width: 100%;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     transition: background-color 0.3s;
   
 }
@@ -292,11 +298,20 @@ body {
 
 .botao3 span:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgb(121, 120, 120);
+    box-shadow: 0 8px 16px rgb(191, 188, 188);
     border: 10px;
 }
 
 
+
+.card4{
+    width: 260px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
 
 .card4 p{
     background-color: #d3d3d3cc;
@@ -305,22 +320,22 @@ body {
     font-size: 18px;
     color: black;
     margin: 0;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
  
 
 
 .botao4  {
-    background-color: #a29bfe;
+    background-color: #ff6505;
     border: none;
     padding: 15px;
     color: #555555;
     font-size: 16px;
     cursor: pointer;
     width: 100%;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     transition: background-color 0.3s;
   
 }
@@ -334,7 +349,7 @@ body {
 
 .botao4 span:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgb(121, 120, 120);
+    box-shadow: 0 8px 16px rgb(191, 188, 188);
     border: 50px;
 }
 
@@ -353,15 +368,15 @@ body {
 
 
 .botao5  {
-    background-color: #FFD600;
+    background-color: #42ea9b;
     border: none;
     padding: 15px;
     color: #555555;
     font-size: 16px;
     cursor: pointer;
     width: 100%;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     transition: background-color 0.3s;
   
 }
@@ -375,6 +390,6 @@ body {
 
 .botao5 span:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgb(121, 120, 120);
+    box-shadow: 0 8px 16px rgb(191, 188, 188);
     border: 10px;
 }
