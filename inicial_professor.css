@@ -133,15 +133,28 @@ body {
   }
 
 .cards {
-    display: flex;
-    gap: 30px;
-    width: 260;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  padding: 20px;
+  align-items: flex-start;
+  margin-left: 0;
+
+}
+
+
+
+.card1{
+    width: 260px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    background-color: white;
 }
+
+
 
 .card1 p{
     background-color: #d3d3d3cc;
@@ -213,7 +226,7 @@ body {
 
 
 .botao2  {
-    background-color: #fab1a0;
+    background-color: #FF2400;
     border: none;
     padding: 15px;
     color: #555555;
@@ -239,4 +252,4 @@ body {
     border-radius: 10px;
 }
 
-/*<-- mover o botão para cima e para baixo -5px e a sombra preta-->
+

@@ -6,8 +6,10 @@
   }
   
   body, html {
-    height: 0;
-    width: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 
   }
   
@@ -24,7 +26,7 @@
     top: 0;
     height: 100vh;
     width: 250px;
-    background-color: #4169C1; 
+    background-color: #65A2E9; 
     display: flex;
     padding: 20px;
     justify-content: center;
@@ -47,7 +49,7 @@ body {
 
 .sidebar {
   width: 250px;
-  background-color: #3b5cb8;
+  background-color: #639bdb;
   color: white;
   padding: 20px 10px;
   display: flex;
@@ -130,38 +132,42 @@ body {
   }
 
 
+
+
 .cards {
   display: flex;
-  flex-wrap: wrap;       /* permite que os cards quebrem para a próxima linha */
-  justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
-  padding: 20px;
-  max-width: 850px;      /* define um limite para forçar a quebra de linha */
-  margin: 0 auto; 
+  padding: 10px;
+  align-items: flex-start;
+  margin-right: 100px;
+
 }
 
-.cards > div {
-  width: 260px;
-}
+
 
 .card1{
-  width: 260px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
+    width: 260px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    ;
 }
 
+
+
 .card1 p{
-  background-color: #d3d3d3cc;
-  padding: 20px;
-  font-weight: bold;
-  font-size: 18px;
-  color: black;
-  margin: 0;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+    background-color: #d3d3d3cc;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
  
 
@@ -193,6 +199,12 @@ body {
     border: 50px;
 }
 
+
+
+
+
+
+
 .card2{
     width: 260px;
     border-radius: 10px;
@@ -201,6 +213,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 
 .card2 p{
     background-color: #d3d3d3cc;
@@ -214,8 +227,9 @@ body {
 }
  
 
+
 .botao2  {
-    background-color: #fab1a0;
+    background-color: #FF2400;
     border: none;
     padding: 15px;
     color: #555555;
@@ -266,16 +280,16 @@ body {
 
 
 .botao3 {
-  background-color: #2a4aa0;
-  border: none;
-  padding: 15px;
-  color: #555555;
-  font-size: 16px;
-  cursor: pointer;
-  width: 100%;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  transition: background-color 0.3s;
+    background-color: #a514e9;
+    border: none;
+    padding: 15px;
+    color: #555555;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: background-color 0.3s;
   
 }
 
@@ -283,7 +297,7 @@ body {
     margin-right: 180px;
     font-size: 10px;
     white-space: nowrap;
-    color: #ffffff;
+    color: #ffff;
 }
 
 .botao3 span:hover {
@@ -332,7 +346,6 @@ body {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgb(121, 120, 120);
     border: 50px;
-    margin-right: auto;
 }
 
 

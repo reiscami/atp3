@@ -24,7 +24,7 @@
     top: 0;
     height: 100vh;
     width: 250px;
-    background-color: #4169C1; 
+    background-color: #65A2E9; 
     display: flex;
     padding: 20px;
     justify-content: center;
@@ -50,7 +50,7 @@ body {
 
 .sidebar {
   width: 250px;
-  background-color: #3b5cb8;
+  background-color: #639bdb;
   color: white;
   padding: 20px 10px;
   display: flex;
@@ -95,7 +95,7 @@ body {
 .menu a.active,
 .menu a:hover,
 .logout:hover {
-  background-color: #2a4aa0;
+  background-color: #65A2E9;
   border-radius: 8px;
 }
 
@@ -129,54 +129,22 @@ body {
   align-items: flex-start;
 }
 
-.cards {
-  display: flex;
-  gap: 50px;
-  flex-wrap: wrap;
+
+
+.card {
+    width: 200px; /* Largura ajustada para ser similar à imagem */
+    background-color: #1a4f6d; /* Cor de fundo do card (azul petróleo escuro) */
+    border-radius: 20px; /* Cantos arredondados */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+    color: white; /* Cor do texto padrão para o card */
+    position: relative; /* Necessário para posicionamento do ícone e sombra de texto */
 }
 
-.card1 {
-  background: #a29bfe;
-  color: white;
-  width: 180px;
-  border-radius: 20px;
-  padding: 20px 10px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-right: 30px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  
-}
-
-.title{
-  color: #ffff;
-   
-}
-
-.subtitle{
-  color: #ffffff91
-}
-
-
-
-.botao1 {
-  margin-top: 10px;
-  background-color: #6c5ce7;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 10px;
-  border: none;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-
-.botao1:hover {
-  background-color: #9689f8;
-}
 
 .icon-circle {
   background-color: white;

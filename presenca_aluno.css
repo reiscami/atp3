@@ -95,7 +95,7 @@ body {
 .menu a.active,
 .menu a:hover,
 .logout:hover {
-  background-color: #639bdb;
+  background-color: #65A2E9;
   border-radius: 8px;
 }
 
@@ -128,76 +128,52 @@ body {
   align-items: flex-start;
 }
 
-.cards {
-  display: flex;
-  gap: 20px;
-}
-
-/* Cards base */
 .card {
-  width: 260px;
-  height: 260px;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    background-color: black; /* Alterado de #1a4f6d para black */
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    color: white;
+    position: relative; 
 }
 
-
-/* Topo comum aos dois */
-.card-top {
-  background-color: #dcdcdc;
-  padding: 20px;
+.card-icon {
+    width: 80px;
+    height: 80px;
+    background-color: white; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
-.card-top h3 {
-  margin: 0;
-  font-size: 20px;
-  font-weight: bold;
+.card-icon svg {
+    width: 50px; 
+    height: 50px;
 }
 
-.card-top p {
-  margin-top: 5px;
-  font-size: 18px;
-  font-weight: bold;
+.card-title {
+    font-size: 1.4em; 
+    font-weight: bold;
+    margin-bottom: 5px; 
+    color: white; 
 }
 
-/* Parte inferior com cor diferente por card */
-.card-bottom {
-  padding: 15px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.card-subtitle {
+    font-size: 0.9em; 
+    color: #a0c0d0; 
+    margin-bottom: 25px; 
 }
 
-.card-bottom a {
-  margin-top: 10px;
-  background-color: #a41fc9;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 10px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-
-.card-bottom a:hover {
-  background-color: #c765e3;
-}
-
-/* Cores específicas */
-.card-bottom.roxo {
-  background-color: #c057de;
-}
-
-.card-bottom.verde {
-  background-color: #1dd887;
-}
-
-.card-bottom.verde a {
-  background-color: #4ce8a5;
-}
-
-.card-bottom.verde a:hover {
-  background-color: #4af7ac;
+.card-footer {
+    font-size: 1.1em; 
+    font-weight: bold;
+    color: white; 
 }
