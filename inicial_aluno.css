@@ -45,7 +45,10 @@ body {
   font-family: Arial, sans-serif;
 }
 
-
+.container {
+  display: flex;
+  height: 100vh;
+}
 
 .sidebar {
   width: 250px;
@@ -129,18 +132,21 @@ body {
     align-items: flex-start; /* <-- Alinha à esquerda */
     padding: 20px; /* <-- Adiciona espaçamento interno */
     color: black;
+    padding-left: 10px;
+    padding-right: 20px;
   }
 
-
-
+.linha {
+   display: flex;
+   gap: 20px;
+}
 
 .cards {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 10px;
-  align-items: flex-start;
-  margin-right: 100px;
+  justify-content: flex-start;
+  padding: 20px;
 
 }
 
@@ -154,7 +160,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: white;
-    ;
 }
 
 
@@ -388,3 +393,5 @@ body {
     box-shadow: 0 8px 16px rgb(121, 120, 120);
     border: 10px;
 }
+
+

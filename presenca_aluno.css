@@ -24,7 +24,7 @@
     top: 0;
     height: 100vh;
     width: 250px;
-    background-color: #65A2E9; 
+    background-color: #4169C1; 
     display: flex;
     padding: 20px;
     justify-content: center;
@@ -50,7 +50,7 @@ body {
 
 .sidebar {
   width: 250px;
-  background-color: #639bdb;
+  background-color: #3b5cb8;
   color: white;
   padding: 20px 10px;
   display: flex;
@@ -95,7 +95,7 @@ body {
 .menu a.active,
 .menu a:hover,
 .logout:hover {
-  background-color: #65A2E9;
+  background-color: #2a4aa0;
   border-radius: 8px;
 }
 
@@ -119,6 +119,7 @@ body {
   border: 1px solid 
 }
 
+
 .right-side {
   flex: 1;
   margin-left: 250px;
@@ -128,52 +129,238 @@ body {
   align-items: flex-start;
 }
 
-.card {
-    width: 200px;
-    background-color: black; /* Alterado de #1a4f6d para black */
-    border-radius: 20px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    color: white;
-    position: relative; 
+.cards {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
 }
 
-.card-icon {
-    width: 80px;
-    height: 80px;
-    background-color: white; 
-    border-radius: 50%; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 15px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+.card1 {
+  background: #04354b;
+  color: white;
+  width: 180px;
+  border-radius: 15px;
+  padding: 20px 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  
 }
 
-.card-icon svg {
-    width: 50px; 
-    height: 50px;
+.title1{
+  color: #ffff;
+   
 }
 
-.card-title {
-    font-size: 1.4em; 
-    font-weight: bold;
-    margin-bottom: 5px; 
-    color: white; 
+.subtitle1{
+  color: #ffffff91
 }
 
-.card-subtitle {
-    font-size: 0.9em; 
-    color: #a0c0d0; 
-    margin-bottom: 25px; 
+
+
+.botao1 {
+  margin-top: 10px;
+  background-color: #6c5ce7;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
-.card-footer {
-    font-size: 1.1em; 
-    font-weight: bold;
-    color: white; 
+.botao1:hover {
+  background-color: #9689f8;
+}
+
+.icon-circle {
+  background-color: white;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-circle svg {
+  width: 40px;
+  height: 40px;
+  stroke: rgb(0, 0, 0);
+}
+
+.card1 .title1 {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+
+.card1 .subtitle1 {
+  font-size: 0.85em;
+  margin-bottom: 15px;
+}
+
+.card1 .button-text {
+  font-size: 0.9em;
+}
+
+
+
+
+.card2 {
+  background: #fab1a0;
+  color: white;
+  width: 180px;
+  border-radius: 20px;
+  padding: 20px 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  gap: 10px;
+}
+
+.title2{
+  color: #ffff;
+   
+}
+
+.subtitle2{
+  color: #ffffff91
+}
+
+
+
+.botao2 {
+  margin-top: 10px;
+  background-color: #ff7675;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.botao2:hover {
+  background-color: #ffb7a7;
+}
+
+.icon-circle {
+  background-color: white;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-circle svg {
+  width: 40px;
+  height: 40px;
+  stroke: rgb(0, 0, 0);
+}
+
+.card2 .title2 {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+
+.card2 .subtitle2 {
+  font-size: 0.85em;
+  margin-bottom: 15px;
+}
+
+.card2 .button-text {
+  font-size: 0.9em;
+}
+
+
+
+
+.card3 {
+  background: #fab1a0;
+  color: white;
+  width: 180px;
+  border-radius: 20px;
+  padding: 20px 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  gap: 10px;
+}
+
+.title3{
+  color: #ffff;
+   
+}
+
+.subtitle3{
+  color: #ffffff91
+}
+
+
+
+.botao3 {
+  margin-top: 10px;
+  background-color: #ff7675;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.botao3:hover {
+  background-color: #ffb7a7;
+}
+
+.icon-circle {
+  background-color: white;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-circle svg {
+  width: 40px;
+  height: 40px;
+  stroke: rgb(0, 0, 0);
+}
+
+.card3 .title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+
+.card3 .subtitle {
+  font-size: 0.85em;
+  margin-bottom: 15px;
+}
+
+.card3 .button-text {
+  font-size: 0.9em;
 }
