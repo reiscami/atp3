@@ -133,7 +133,7 @@ body {
   gap: 20px;
 }
 
-/* Cards base */
+
 .card {
   width: 260px;
   height: 260px;
@@ -143,7 +143,6 @@ body {
 }
 
 
-/* Topo comum aos dois */
 .card-top {
   background-color: #dcdcdc;
   padding: 20px;
@@ -161,7 +160,7 @@ body {
   font-weight: bold;
 }
 
-/* Parte inferior com cor diferente por card */
+
 .card-bottom {
   padding: 15px;
   color: white;
